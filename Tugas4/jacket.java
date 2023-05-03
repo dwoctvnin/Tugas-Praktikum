@@ -62,9 +62,9 @@ public class jacket {
         if (jumlah > 100 && tipe.equalsIgnoreCase("A")){
             System.out.println("-- Pembelian barang lebih dari 100 pcs mendapatkan potongan harga --");
         } else if (jumlah > 100 && tipe.equalsIgnoreCase("B")){
-            System.out.println("| Kamu telah menghemat biaya sebesar " + jumlah*5000);
+            System.out.println("-- Pembelian barang lebih dari 100 pcs mendapatkan potongan harga --");
         } else if (jumlah > 100 && tipe.equalsIgnoreCase("C")){
-            System.out.println("| Kamu telah menghemat biaya sebesar " + jumlah*15000);
+            System.out.println("-- Pembelian barang lebih dari 100 pcs mendapatkan potongan harga --");
         }
     }
 }
